@@ -7,8 +7,8 @@ on:
   pull_request:
     branches:
       -main
-  worflow_disptach:
-    
+  workflow_disptach:
+
 
 jobs:
   build:
