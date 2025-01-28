@@ -26,7 +26,7 @@ jobs:
 
       - name: Build
         run:  dotnet restore ./src/Todo.Api.sln
-              dotnet build --no-restore ./src/Todo.Api.sln
+              dotnet build ./src/Todo.Api.sln --no-restore
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
